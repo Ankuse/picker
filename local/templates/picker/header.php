@@ -1,5 +1,9 @@
 <?
 if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
+/**
+ * @global CMain $APPLICATION
+ * @global CUser $USER
+ */
 $dir = $APPLICATION->GetCurDir();
 $page = $APPLICATION->GetCurPage();
 $show_left_sidebar = $APPLICATION->GetDirProperty("show_left_sidebar");
