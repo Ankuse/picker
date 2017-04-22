@@ -28,7 +28,7 @@ $assets = \Bitrix\Main\Page\Asset::getInstance();
         $assets->addCss(SITE_TEMPLATE_PATH . '/css/media.css');
         $assets->addCss(SITE_TEMPLATE_PATH . '/css/colors_var.css');
         // js стили для сайта,  переместить в футер при необходимости!
-        $assets->addCss(SITE_TEMPLATE_PATH . '/css/colors_var.css');
+        $assets->addJs(SITE_TEMPLATE_PATH . '/js/common.js');
         ?>
 	</head>
 	<body>
