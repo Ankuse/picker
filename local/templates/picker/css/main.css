@@ -1,9 +1,12 @@
 h1 {
   color: #0d7db4;
 }
+ul {
+  list-style-type: none;
+}
 .wrapper {
   display: flex;
-  min-height: 82vh;
+  min-height: 85vh;
   flex-direction: column;
 }
 header {
@@ -11,12 +14,37 @@ header {
 }
 header .header {
   display: flex;
-  justify-content: center;
+  flex-grow: 1;
+}
+header .header nav {
+  display: flex;
+  width: 100%;
+}
+header .header nav ul {
+  padding: 0px;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+}
+header .header nav ul .mnu_link {
+  display: inline-flex;
+}
+header .header nav ul .mnu_link a {
+  color: #0d7db4;
+  font-size: 25px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+header .header nav ul .mnu_link a:hover {
+  transition: 0.7s;
+  color: #0da7f8;
+  text-decoration: none;
 }
 .content {
   display: flex;
+  flex-grow: 2;
   justify-content: center;
-  flex: 1;
   background-color: #0d7db4;
 }
 footer {
@@ -24,5 +52,6 @@ footer {
 }
 footer .footer {
   display: flex;
+  flex-grow: 1;
   justify-content: center;
 }

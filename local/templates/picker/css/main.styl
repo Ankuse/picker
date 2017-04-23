@@ -4,22 +4,46 @@
 
 h1
   color: blue
+ul
+  list-style-type: none
 .wrapper
   display flex
-  min-height 82vh
+  min-height 85vh
   flex-direction column
 header
   background-color: grey
   .header
     display: flex
-    justify-content center
+    flex-grow 1
+    nav
+      display: flex
+      width: 100%
+      ul
+        padding: 0px
+        display: flex
+        width: 70%;
+        margin: auto;
+        justify-content space-around
+        .mnu_link
+          display: inline-flex
+          a
+            color blue
+            font-size 25px
+            line-height: 50px
+            text-transform uppercase
+          a:hover
+            transition 0.7s
+            color bluehover
+            text-decoration none
+
 .content
   display: flex
+  flex-grow 2
   justify-content center
-  flex 1
   background-color: blue
 footer
   background-color: grey
   .footer
     display: flex
+    flex-grow 1
     justify-content center
