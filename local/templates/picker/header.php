@@ -40,7 +40,19 @@ $assets = \Bitrix\Main\Page\Asset::getInstance();
                 <div class="container">
                     <div class="row">
                         <div class="header">
-                            <h1>Header</h1>
+                            <nav>
+                                <ul>
+                                    <li class="mnu_link">
+                                        <a href="#">Каталог</a>
+                                    </li>
+                                    <li class="mnu_link">
+                                        <a href="#">Сборщик</a>
+                                    </li>
+                                    <li class="mnu_link">
+                                        <a href="#">Новости</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
 
                     </div>
